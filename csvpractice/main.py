@@ -8,7 +8,7 @@ Este Script, toma la información de los módulos en el paquete csvpractice, par
 
 
 def run():
-    data = reader.read_csv('csvpractice/data.csv')
+    data = reader.read_csv('data.csv')
     # data = list(filter(lambda item: item['Continent'] =='South America', data))
 
     # Me imprime únicamente la información de un solo país, es que le indique consultar
