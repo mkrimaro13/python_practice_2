@@ -12,5 +12,5 @@ def gen_pie_chart(name='pie', labels=1, values=1):
     fig, ax = plt.subplots()
     ax.pie(values, labels=labels)
     ax.axis('equal')
-    plt.savefig(f'images/{name}.png') 
+    plt.savefig(f'images/pie_{name}.png') 
     plt.close()

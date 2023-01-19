@@ -1,4 +1,4 @@
-FROM lenguaje:version
+FROM python:3.11
 
 WORKDIR /app
 
